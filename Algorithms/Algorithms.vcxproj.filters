@@ -13,5 +13,41 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Заголовочные файлы\Algorithms">
+      <UniqueIdentifier>{1314ada0-aea5-469e-9b8b-b5614a472d52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Quick.h">
+      <Filter>Заголовочные файлы\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Insert.h">
+      <Filter>Заголовочные файлы\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Counting.h">
+      <Filter>Заголовочные файлы\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>Заголовочные файлы\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Selection.h">
+      <Filter>Заголовочные файлы\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Radix.h">
+      <Filter>Заголовочные файлы\Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Array.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>

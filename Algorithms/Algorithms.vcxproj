@@ -142,6 +142,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Counting.h" />
+    <ClInclude Include="Bubble.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Insert.h" />
+    <ClInclude Include="Quick.h" />
+    <ClInclude Include="Radix.h" />
+    <ClInclude Include="Selection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Array.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
